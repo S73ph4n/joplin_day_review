@@ -1,9 +1,8 @@
 {
 	"manifest_version": 1,
-	"app_min_version": "1.4",
 	"name": "Day Review",
-	"description": "Make a note of all the notes/todo created/updated/completed today.",
-	"version": "0.1",
+	"description": "Makes a review of the notes/todo created/updated/completed today",
+	"version": "1.0.0",
 	"author": "S73ph4n",
-	"homepage_url": "https://github.com/S73ph4n"
+	"homepage_url": ""
 }
