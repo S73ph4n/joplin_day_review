@@ -76,6 +76,6 @@ joplin.plugins.register({
 			},
 		});
 		
-		joplin.views.toolbarButtons.create('dayReview', ToolbarButtonLocation.EditorToolbar);
+		joplin.views.toolbarButtons.create('dayReview','dayReview', ToolbarButtonLocation.EditorToolbar);
 	},
 });
