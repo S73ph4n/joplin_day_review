@@ -5,7 +5,7 @@ joplin.plugins.register({
 	onStart: async function() {
 		joplin.commands.register({
 			name: 'dayReview',
-			label: 'Makes a review of the note edited today',
+			label: 'Makes a review of the notes edited today',
 			iconName: 'fas fa-clipboard-list',
 			execute: async () => {
 				const notes = (await joplin.data.get(['notes'], { fields: ['id', 'title', 'created_time', 'updated_time', 'is_todo', 'todo_completed' ] }));
